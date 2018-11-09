@@ -5,25 +5,14 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-
-"require install pip3 neovim support to ncm2"
-"check here: https://github.com/ncm2/ncm2"
-Plug 'ncm2/ncm2'
-Plug 'roxma/nvim-yarp'
-Plug 'ncm2/ncm2-bufword'
-Plug 'ncm2/ncm2-tmux'
-Plug 'ncm2/ncm2-path'
-Plug 'phpactor/phpactor', {'do': 'composer install', 'for': 'php'}
-Plug 'phpactor/ncm2-phpactor'
-Plug 'ncm2/nvim-typescript', {'do': './install.sh'}
-Plug 'ncm2/ncm2-tern', {'do': 'npm install'}
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
 call plug#end()
 
+let g:deoplete#enable_at_startup = 1
+let g:deoplete#ignore_sources = get(g:, 'deoplete#ignore_sources', {})
+let g:deoplete#ignore_sources.php = ['omni']
 colorscheme nord
-
-autocmd Bufenter * call ncm2#enable_for_buffer()
-
-set completeopt=noinsert,menuone,noselect
 
 set hidden
 set number
