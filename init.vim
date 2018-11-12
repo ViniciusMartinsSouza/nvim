@@ -6,12 +6,15 @@ Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'Shougo/denite.nvim'
 Plug 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
 call plug#end()
 
 let g:deoplete#enable_at_startup = 1
 let g:deoplete#ignore_sources = get(g:, 'deoplete#ignore_sources', {})
 let g:deoplete#ignore_sources.php = ['omni']
+
 colorscheme nord
 
 set hidden
