@@ -1,5 +1,5 @@
 # Nvim Settings
-Configurations files of my neovim (wip)
+Configurations files of my [neovim](https://github.com/neovim/neovim) (wip)
 
 ## Instalation
 Clone this repository into your ~/.config/nvim
