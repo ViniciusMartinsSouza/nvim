@@ -1,1 +1,2 @@
-colorscheme nord
+" Configure highlight
+colorscheme codedark
