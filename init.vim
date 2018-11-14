@@ -11,5 +11,7 @@ Plug 'editorconfig/editorconfig-vim'
 call plug#end()
 
 if !len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
-  source $HOME/.config/nvim/config.vim
+    for f in split(glob('$HOME/.config/nvim/config/*.vim'), '\n')
+        exe 'source' f
+    endfor
 endif
