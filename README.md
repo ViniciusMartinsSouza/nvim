@@ -5,7 +5,7 @@ Configurations files of my neovim (wip)
 Clone this repository into your ~/.config/nvim
 
 ```bash
-https://github.com/ViniciusMartinsSouza/nvim.git ~/.config/nvim
+git clone https://github.com/ViniciusMartinsSouza/nvim.git ~/.config/nvim
 ```
 Then
 ```bash
