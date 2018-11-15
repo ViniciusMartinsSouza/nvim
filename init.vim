@@ -10,6 +10,9 @@ Plug 'bling/vim-bufferline'
 Plug 'editorconfig/editorconfig-vim'
 call plug#end()
 
+" @TODO: Move to another file this config
+let g:loaded_ruby_provider = 1
+
 if !len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
     for f in split(glob('$HOME/.config/nvim/config/*.vim'), '\n')
         exe 'source' f
