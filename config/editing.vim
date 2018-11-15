@@ -6,7 +6,7 @@ nnoremap <leader>; A;<esc>
 
 " Set shortcut to show files
 " Need install: https://github.com/junegunn/fzf
-nnoremap <c-p> :Files<cr>
+nnoremap <c-p> :GFiles<cr>
 
 " Move lines down with Alt+J <leader>sv :source ~/.config/nvim/init.vim<cr>
 " Move lines up with Alt+K
