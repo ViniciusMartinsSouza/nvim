@@ -8,6 +8,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
 Plug 'bling/vim-bufferline'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'leafgarland/typescript-vim'
 call plug#end()
 
 " @TODO: Move to another file this config
