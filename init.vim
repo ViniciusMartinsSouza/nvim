@@ -9,6 +9,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'bling/vim-bufferline'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'leafgarland/typescript-vim'
+Plug 'pangloss/vim-javascript'
+Plug 'joukevandermaas/vim-ember-hbs'
 call plug#end()
 
 " @TODO: Move to another file this config
