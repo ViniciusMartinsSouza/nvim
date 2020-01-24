@@ -1,3 +1,3 @@
 " Configure highlight
-" colorscheme NeoSolarized
-" set background=dark
+colorscheme NeoSolarized
+set background=dark
