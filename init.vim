@@ -9,6 +9,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'bling/vim-bufferline'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'leafgarland/typescript-vim'
+Plug 'iCyMind/NeoSolarized'
 call plug#end()
 
 " @TODO: Move to another file this config

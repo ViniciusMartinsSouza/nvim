@@ -1,2 +1,3 @@
 " Configure highlight
-colorscheme codedark
+" colorscheme NeoSolarized
+" set background=dark
